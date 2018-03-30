@@ -57,7 +57,6 @@
 
 #link-row>div {
 	border-radius: 25px;
-	font-size: 100%;
     font-size: 2.5vw;
     text-align: center;
     transition:color .2s ease-out, background .5s ease-in;
@@ -65,14 +64,21 @@
 
 #link-row>div:hover {
 	background-color: white;
-	color: #721330;
-	font-size: 100%;
-    font-size: 2.5vw;
     text-align: center;
 }
 
 #image-div {
 	background-color: rgba(0,0,0,.75);
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #721330;
+	text-decoration: none;
 }
 
 body {

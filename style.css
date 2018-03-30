@@ -9,7 +9,6 @@
 
 .page-header {
 	border: 3px solid #721330;
-	border-bottom: 0px;
 	border-radius: 50px 50px 0px 0px;
 	background-color: #721330;
 	text-align: center;
@@ -37,6 +36,14 @@
   margin: 15px 0px;
 }
 
+.mt-0 {
+	color: white;
+}
+
+.media-body {
+	color: #B0AFA5;
+}
+
 #align-header {
 	display: flex;
 	justify-content: center;
@@ -49,6 +56,24 @@
 	display: flex;
 	flex-direction: column;
 	padding: 15px 0px 15px 15px;
+}
+
+#info-label {
+	max-width: 150px;
+}
+
+#info-input {
+	font-size: 95%;
+	color: #B0AFA5;
+}
+
+#personal-info>.row {
+	margin: 0px 0px;
+	border: none;
+}
+
+#personal-info>.row>.col {
+	padding: 3px 0px;
 }
 
 #link-row {
@@ -85,6 +110,7 @@ body {
 	background-position: center;
 	background-image: url(Assets/Images/background.jpg);
 	background-size: cover;
+	background-attachment: fixed;
  	height: 100%;
 }
 

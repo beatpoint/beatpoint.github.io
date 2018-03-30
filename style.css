@@ -107,6 +107,7 @@ a:hover{
 }
 
 body {
+	font-family: 'Noto Sans', sans-serif;
 	background-position: center;
 	background-image: url(Assets/Images/background.jpg);
 	background-size: cover;

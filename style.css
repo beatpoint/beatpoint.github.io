@@ -2,6 +2,7 @@
 	color: white;
 	font-size: 25px;
 	min-height: 639.750px;
+	margin: 0px;
 }
 
 .row {
@@ -159,6 +160,8 @@ a:hover{
 }
 
 body {
+	display: flex;
+	justify-content: center;
 	font-family: 'Noto Sans', sans-serif;
 	background-position: center;
 	background-image: url(Assets/Images/background.jpg);

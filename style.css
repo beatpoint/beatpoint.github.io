@@ -149,6 +149,11 @@
 	background-color: rgba(0,0,0,.75);
 }
 
+#overflow-info {
+	overflow: auto;
+	max-height:245px;
+}
+
 a {
 	color: white;
 	text-decoration: none;

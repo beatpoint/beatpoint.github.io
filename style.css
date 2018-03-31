@@ -44,6 +44,36 @@
 	color: #B0AFA5;
 }
 
+.card {
+	margin: 5px 0px;
+	background-color: rgba(0,0,0,0);
+	border-color: #721330;
+}
+
+.card-header {
+	padding: 0px 20px;
+	background-color: #721330;
+	border-color: #721330;
+}
+
+.card-header:hover {
+	box-shadow: 3px 3px 5px 6px rgba(255,255,255,.5);
+	transition: all 200ms ease-out;
+}
+
+.btn {
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.btn:hover {
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	transition: all 200ms ease-out;
+}
+
 #align-header {
 	display: flex;
 	justify-content: center;

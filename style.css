@@ -1,10 +1,13 @@
 .container {
 	color: white;
 	font-size: 25px;
+	min-height: 639.750px;
 }
 
 .row {
 	border-bottom: 3px solid #721330;
+	width: auto;
+	height: auto;
 }
 
 .page-header {
@@ -45,42 +48,62 @@
 }
 
 .card {
-	margin: 5px 0px;
 	background-color: rgba(0,0,0,0);
-	border-color: #721330;
 }
 
 .card-header {
-	padding: 0px 20px;
-	background-color: #721330;
-	border-color: #721330;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-color: rgba(0,0,0,0);
+	border-bottom: 3px solid #721330;
 }
 
 .card-header:hover {
-	box-shadow: 3px 3px 5px 6px rgba(255,255,255,.5);
+	box-shadow: 0 10px 6px -6px rgba(255,255,255,.5);
 	transition: all 200ms ease-out;
+}
+
+.card-body {
+	color: #B0AFA5;
 }
 
 .btn {
+	text-align: left;
+	min-width: 350px;
+	padding: 15px;
+	margin-bottom: 0px;
+	border-radius: 0px 50px 0px 0px;
+	background-color: #721330;
 	color: white;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .btn:hover {
+	min-width: 450px;
+	margin-bottom: 0px;
+	background-color: #721330;
 	color: white;
 	text-decoration: none;
-	font-size: 30px;
 	transition: all 200ms ease-out;
+}
+
+.d-block {
+	min-height: 195px;
+}
+
+.carousel-item>.row {
+	border-bottom: none;
 }
 
 #align-header {
 	display: flex;
 	justify-content: center;
-	padding-bottom: 0px;
+	padding: 0px 15px;
 }
 
 #personal-info {
+	min-height: 385px;
 	border-left: 3px solid #721330;
 	background-color: rgba(0,0,0,.75);
 	display: flex;
@@ -112,7 +135,6 @@
 
 #link-row>div {
 	border-radius: 25px;
-    font-size: 2.5vw;
     text-align: center;
     transition:color .2s ease-out, background .5s ease-in;
 }
@@ -150,8 +172,6 @@ div {
 }
 
 img {
-	/*width: 266.7px;
-	height: 355.583px;*/
 	width: 50%;
 	height: 50%;
 	border: 10px dashed white;
